@@ -1,0 +1,13 @@
+section {
+    display: flex;
+    justify-content: center;
+}
+textarea, button {
+    width: 100%;
+    height: 40vh;
+}
+button {
+    height: 10vh;
+    font-size: 5vh;
+    font-weight: bold;
+}
