@@ -20,4 +20,10 @@ function htmlManager() {
     }
 }
 
+async function loadExample() {
+  const response = await fetch("./example.log")
+  document.getElementById("input").value = await response.text()
+}
+
 document.getElementById("btn-parse").addEventListener("click", htmlManager)
+document.getElementById("btn-example").addEventListener("click", loadExample)

@@ -1,6 +1,7 @@
 textarea, button { width: 100%; }
 #input { height: 20vh; }
-#btn-parse {
+.buttons {
+    display: flex;
     height: 10vh;
     font-size: 5vh;
     font-weight: bold;
