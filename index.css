@@ -6,7 +6,11 @@ textarea, button { width: 100%; }
     font-size: 5vh;
     font-weight: bold;
 }
-#output { height: 60vh; }
+.outputs {
+    display: flex;
+    height: 60vh;
+}
+#output-img { display: none; }
 #logarea {
     height: 5vh;
     color: red;
